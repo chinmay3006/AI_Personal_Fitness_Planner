@@ -29,6 +29,13 @@ The final interface where users get their plan and AI advice.*
 ![Dashboard](Output_2.png)
 
 ## 💡 How to Run
-1.  Open `AI_Fitness_Project.ipynb` in Google Colab.
-2.  Upload `megaGymDataset.csv` to the session storage.
-3.  Run all cells to launch the Streamlit app.
+Option 1: Google Colab (Recommended)
+1. Open `AI_Fitness_Project.ipynb` in Google Colab.
+2. Upload `megaGymDataset.csv`.
+3. Run all cells to launch the app.
+
+### Option 2: Local Execution
+1. Install dependencies: `pip install streamlit pandas transformers`
+2. Run the script:
+   ```bash
+   streamlit run app.py
