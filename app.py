@@ -146,7 +146,7 @@ from pyngrok import ngrok
 
 # 1. AUTHENTICATE
 # REPLACE THE TEXT BELOW WITH YOUR ACTUAL TOKEN FROM NGROK DASHBOARD
-ngrok.set_auth_token("37ezIi02DOQJxoEMx4a8ushvnHV_2126RKUmiTh9ZWFDpESDA")
+ngrok.set_auth_token("YOUR ACTUAL TOKEN")
 
 # 2. START TUNNEL
 public_url = ngrok.connect(8501).public_url
