@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Install libraries for Website (Streamlit), AI (Transformers), and Graphs (Seaborn)
-!pip install streamlit pandas scikit-learn transformers torch matplotlib seaborn pyngrok -q
+# !pip install streamlit pandas scikit-learn transformers torch matplotlib seaborn pyngrok -q
 
 import pandas as pd
 import seaborn as sns
