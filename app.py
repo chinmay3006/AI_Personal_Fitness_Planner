@@ -153,4 +153,4 @@ public_url = ngrok.connect(8501).public_url
 print(f"🚀 CLICK THIS LINK: {public_url}")
 
 # 3. RUN APP
-!streamlit run app.py
+#!streamlit run app.py
